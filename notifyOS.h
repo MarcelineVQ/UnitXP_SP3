@@ -1,6 +1,8 @@
 #pragma once
 
 
-// Flash taskbar icon and window caption until the window comes to the foreground
-void flashNotifyOS(UINT count);
+// Flash taskbar icon
+void flashTaskbarIcon();
 
+// Play a system sound
+bool playSystemSound(const string& soundName);
